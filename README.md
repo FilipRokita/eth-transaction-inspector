@@ -28,8 +28,11 @@ A Python script that connects to the Ethereum network using Infura and retrieves
 ## Installation
 
 1. Clone this repository.
-2. Create .env file with `INFURA_URL`.
-3. Install the required Python libraries:
+2. Install the required Python libraries:
     ```bash
     pip install -r requirements.txt
+    ```
+3. Create a `.env` file in the script directory and add your Infura URL:
+    ```
+    INFURA_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
     ```
