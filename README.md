@@ -13,7 +13,7 @@ A Python script that connects to the Ethereum network using Infura and retrieves
 
 ## Prerequisites
 
-1. Python 3.8 or later installed.
+1. Python 3.12 or later installed.
 2. An Infura (MetaMask Developer) account with a registered project.
 3. Installed Python dependencies:
     - `web3`
