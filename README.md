@@ -1,4 +1,4 @@
-# Ethereum Transaction Inspector
+# ETH Transaction Inspector
 
 A Python script that connects to the Ethereum network using Infura and retrieves details of a specified transaction.
 
