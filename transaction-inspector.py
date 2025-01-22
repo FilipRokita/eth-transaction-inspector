@@ -3,6 +3,10 @@ from web3 import Web3
 from dotenv import load_dotenv
 
 def main():
+    """
+    Main function to inspect the details of a transaction on the Ethereum network.
+    """
+
     # Load environment variables from .env file
     load_dotenv()
     INFURA_URL = os.getenv("INFURA_URL")
@@ -21,7 +25,7 @@ def main():
 
     # Transaction hash to inspect
     transaction_hash = "0x2ad2bb00718ab0ed8310dacff9c029ea5d41e038d96c9f52561a1e7948759e99"
-
+    
     # Option 2: Ask the user to input the transaction hash
     # Commented out, due to the task requirements.
     # transaction_hash = input("Enter the transaction hash: ").strip()
