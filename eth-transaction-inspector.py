@@ -2,6 +2,7 @@ import os
 from web3 import Web3
 from dotenv import load_dotenv
 
+
 def main():
     """
     Main function to inspect the details of a transaction on the Ethereum network.
@@ -41,6 +42,7 @@ def main():
     
     except Exception as e:
         print(f"An error occurred while fetching the transaction details: {e}")
+
 
 if __name__ == "__main__":
     main()
