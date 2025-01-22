@@ -1,6 +1,6 @@
 # Ethereum Transaction Inspector
 
-A Python script that connects to the Ethereum network using Infura and retrieves details of a specified transaction. This tool is designed to fulfill the requirements of Task 1 (Script 1) from a blockchain-related technical assessment.
+A Python script that connects to the Ethereum network using Infura and retrieves details of a specified transaction.
 
 ---
 
