@@ -1,3 +1,8 @@
+# Description: A Python script to inspect the details of a transaction on the Ethereum network.
+# Author: Filip Rokita
+
+
+# Import required libraries
 import os
 from web3 import Web3
 from dotenv import load_dotenv
@@ -12,6 +17,7 @@ def main():
     load_dotenv()
     INFURA_URL = os.getenv("INFURA_URL")
     
+    # Check if INFURA_URL is set
     if not INFURA_URL:
         print("INFURA_URL is missing. Please add it to your .env file.")
         return
@@ -31,6 +37,7 @@ def main():
     # Commented out, due to the task requirements.
     # transaction_hash = input("Enter the transaction hash: ").strip()
 
+    # Fetch and print the transaction details
     try:
         # Fetch transaction details
         transaction = web3.eth.get_transaction(transaction_hash)
@@ -40,9 +47,11 @@ def main():
         print(f"Gas Price: {transaction['gasPrice']} wei")
         print(f"Input Call Data: {transaction['input'].hex()}")
     
+    # Handle exceptions
     except Exception as e:
         print(f"An error occurred while fetching the transaction details: {e}")
 
 
+# Run the main function
 if __name__ == "__main__":
     main()
