@@ -35,3 +35,6 @@ A Python script that connects to the Ethereum network using Infura and retrieves
     ```bash
     python eth-transaction-inspector.py
     ```
+
+## Author
+[Filip Rokita](https://www.filiprokita.com/)
