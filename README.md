@@ -2,8 +2,6 @@
 
 A Python script that connects to the Ethereum network using Infura and retrieves details of a specified transaction.
 
----
-
 ## Features
 
 - Connects to the Ethereum mainnet using the Infura API.
@@ -13,8 +11,6 @@ A Python script that connects to the Ethereum network using Infura and retrieves
     - **Input Call Data**: The data sent with the transaction, displayed in hexadecimal format.
 - Handles errors gracefully, including invalid transaction hashes or connectivity issues.
 
----
-
 ## Prerequisites
 
 1. Python 3.8 or later installed.
@@ -22,8 +18,6 @@ A Python script that connects to the Ethereum network using Infura and retrieves
 3. Installed Python dependencies:
     - `web3`
     - `python-dotenv`
-
----
 
 ## Installation
 
