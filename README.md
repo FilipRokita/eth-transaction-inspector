@@ -28,3 +28,10 @@ A Python script that connects to the Ethereum network using Infura and retrieves
     ```
     INFURA_URL=https://mainnet.infura.io/v3/YOUR_INFURA_PROJECT_ID
     ```
+
+## Usage
+1. Change `transaction_hash` in `eth-transaction-inspector.py`
+2. Run the script:
+    ```bash
+    python eth-transaction-inspector.py
+    ```
